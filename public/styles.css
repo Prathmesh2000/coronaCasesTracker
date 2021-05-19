@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(to bottom right, blue, pink);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mask{
+    width: 200px;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.nav{
+    width: 100%;
+    min-height: 100px;
+    padding: 0px;
+    display: flex;
+    background: linear-gradient(to right, rgb(154, 130, 173), pink);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav img{
+    width: 100px;
+    margin-left: 20px;
+}
+
+
+.nav h1{
+    margin: auto;
+    color: white;
+}
+
+.dropdowndiv{
+    text-align: center;
+}
+.dropdown{
+    border: none;
+    min-width: 450px;;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+option{
+    margin: 0px;
+    border: none;
+    outline: none;
+}
+
+#outer{
+    position: absolute;
+    bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.card{
+    width: 480px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.card:hover{
+    background-color:blueviolet;
+}
+
+.card h1{
+    position: relative;
+    margin: auto;
+}
+
+#location{
+    position: relative;
+    right: 50%;
+    left: 50%;
+    width: 300px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+#update{
+    position: relative;
+    right: 50%;
+    left: 50%;
+    width: 300px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    text-align: center;
+}
