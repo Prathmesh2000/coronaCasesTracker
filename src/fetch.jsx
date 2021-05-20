@@ -103,32 +103,14 @@ function Fetch(){
                     {resultState.map(createOption)}
                 </select>
             </div>
-
-            
-            <div id="location">
-                <h1>Location</h1> 
-                <h1>{option}</h1>
-            </div>
-                
-            <div className="card">
-                <h1>active : {active[optionId+resultState.length]}</h1>
-            </div>
-                
-            <div className="card">
-                <h1>death : {death[optionId+resultState.length]}</h1>
-            </div>
-                
-            <div className="card">
-                <h1>conformed : {conformed[optionId+resultState.length]}</h1>
-            </div>
-                
-            <div className="card">
-                <h1>recovered : {recovered[optionId+resultState.length]}</h1>
-            </div>
-                
-            <div id="update">
+            <ul>
+                <h1>Location: {option}</h1>
+                <h1>Active: {active[optionId+resultState.length]}</h1>
+                <h1>Death: {death[optionId+resultState.length]}</h1>
+                <h1>Confirmed: {conformed[optionId+resultState.length]}</h1>
+                <h1>Recovered: {recovered[optionId+resultState.length]}</h1>
                 <h1>Last Update : {updateTime[optionId+resultState.length]}</h1>
-            </div>
+            </ul>
         </div>
 
     )
